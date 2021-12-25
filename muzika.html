@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFE & STYLE-24sata online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div class="background-header">
+            <div class="forma">
+                <div class="forma_levo">
+                    <ul>
+                        <li><a href="#">Politika privatnosti</a></li>
+                        <li><a href="#">Uslovi Koriscenja</a></li>
+                        <li><a href="#">Arhiva</a></li>
+                    </ul>
+                </div>
+                <div class="forma_desno">
+                    <form action="#">
+                        <input type="button" id="login" value="Login">
+                        <input type="text" name="pretraga" id="pretraga" placeholder="Pretraga...">
+                        <label for="search" id="search"><i class="material-icons">search</i></label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <div class="slika_za_logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+        </div>
+        <div class="button_position">
+            <button class="button_menu" onclick="show_elements()">
+                <div class="button_div"></div>
+                <div class="button_div"></div>
+                <div class="button_div"></div>
+            </button>
+        </div>
+        <div class="menu" id="menu">
+            <ul id="hidden_menu">
+                <li><a href="#" id="play-button">Play</a></li>
+                <div class="dropdown">
+                    <li class="hide"><a href="#" class="dropdown-list">Srbija<i class="material-icons expand">expand_more</i></a></li>
+                    <div class="dropdown-content">
+                        <div class="dropdown-left-side">
+                            <div class="dropdown-list">
+                                <ul>
+                                    <li><a href="#">Sve</a></li>
+                                    <li><a href="#">Biznis</a></li>
+                                    <li><a href="#">Hronika</a></li>
+                                    <li><a href="#">Politika i drustvo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dropdown-right-side">
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/EXIT-srednja_slika.jpg" alt="exit">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>Istraživanje pokazalo: Za 20 godina EXIT doneo domaćoj privredi više od 200 miliona evra!</p>
+                                </div>
+                            </div>
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/dubai.jpg" alt="dubai">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>U Dubaiju predstavljeni potencijali građevinske industrije</p>
+                                </div>
+                            </div>
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/vuccc-360x180.jpg" alt="vucic">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>Vučić: Strane investicije 3 milijarde i 140 miliona evra (Video)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="hide"><a href="#" class="dropdown-list">Beograd<i class="material-icons expand">expand_more</i></a></li>
+                    <div class="dropdown-content">
+                        <div class="dropdown-left-side">
+                            <div class="dropdown-list">
+                                <ul>
+                                    <li><a href="#">Sve</a></li>
+                                    <li><a href="#">Biznis</a></li>
+                                    <li><a href="#">Hronika</a></li>
+                                    <li><a href="#">Politika i drustvo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dropdown-right-side">
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/EXIT-srednja_slika.jpg" alt="exit">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>Istraživanje pokazalo: Za 20 godina EXIT doneo domaćoj privredi više od 200 miliona evra!</p>
+                                </div>
+                            </div>
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/dubai.jpg" alt="dubai">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>U Dubaiju predstavljeni potencijali građevinske industrije</p>
+                                </div>
+                            </div>
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/vuccc-360x180.jpg" alt="vucic">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>Vučić: Strane investicije 3 milijarde i 140 miliona evra (Video)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li><a href="#">Svet</a></li>
+                <li><a href="#">Showbizz</a></li>
+                <li><a href="muzika.html">Muzika</a></li>
+                <li><a href="life_style.html">Life & style</a></li>
+                <li><a href="kultura.html">Kultura</a></li>
+                <li><a href="sport.html">Sport</a></li>
+                <li><a href="covid.html">Covid-19</a></li>
+                <li><a href="#">Svetlo</a></li>
+            </ul>
+        </div>
+        <div class="main make-space">
+            <div class="extra-big-image">
+                <img src="images/mantra.jpg" alt="mantra">
+            </div>
+            <div class="new-text-in-image">
+                <div class="life_style_in_image">Muzika</div>
+                <h3>Manntra izbacila mini EP sastavljen od obrada (VIDEO)</h3>
+                <p class="autor-life">Napisao U. M. 11. NOV, 2021</p>
+            </div>
+            <div class="main-left">
+                <div class="main-news">
+                    <div class="page-list">
+                        <ul>
+                            <li><a href="index.html">Pocetna</a> > </li>
+                            <li><a href="#">Kategorija > </a></li>
+                            <li><a href="life_style.html">Life Style</a></li>
+                        </ul>
+                    </div>
+                    <h2 class="header-2">Muzika</h2>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/cola.jpg" alt="cola">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>KONAČNO KONCERT! Zdravko Čolić nakon tri godine u Cirihu</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Jedna od najvećih balkanskih zvezda Zdravko Čolić će u okviru turneje "Ono malo sreće", 11. decembra 2021. godine, održati koncert...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/sara.jpg" alt="sara">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Jelena Karleuša, Marija Šerifović i Sara Jo pevaju na dočeku u Beogradu!</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Na dočeku Nove godine u Beogradu na platou ispred Narodne skupštine Srbije nastupiće pevačice Jelena Karleuša, Marija Šerifović i Sara...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/boris.jpg" alt="boris">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Boris Brejcha objavio novi singl i najavio deseti studijski album (Video)</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Svetski poznati DJ, producent i utemeljivač high tech minimal techna Boris Brejcha objavio je novi singl „Never Stop Dancing“, koji..</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/sting.jpg" alt="sting">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Koncert Stinga u Sarajevu u martu</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Jedna od najvećih zvezda svetske muzičke scene Sting održaće koncert u Sarajevu 19. marta naredne godine, a ulaznice za ovaj...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/koncert.jpg" alt="koncerrt">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Električni orgazam slavi 40 godina koncertom u Beogradu</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Beogradska rok grupa Električni orgazam imaće samostalan koncert 9. decembra u velikoj sali Kombank Dvorane kojim obeležava 40 godina postojanja...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/central.jpg" alt="central">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Poznat deo programa devetog izdanja Central Dance Event novogodišnjeg maratona</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Među hedlajnerima zvezde svetske elektronske scene – Amelie Lens, Hot Since 82, Umek i Yousef Deo programa devetog izdanja Central...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/natali.jpg" alt="natali">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Natali Dizdar gostuje u Bitef Art Cafeu</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Hrvatska pop muzičarka Natali Dizdar gostovaće 26. novembra u klubu Bitef Art Cafe u Beogradu nakon dve godine od poslednje...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/nenad.jpg" alt="nenad">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>ZIMA DONOSI VELIKU ŽIVOTNU LEKCIJU U NOVOM SPOTU NENADA CVIJETIĆA (VIDEO)</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Za razliku od dinamičnog letnjeg hita Samo jako, Nenad Cvijetić se ovog puta vraća svom autentičnom maniru emotivnih ljubavnih numera koje...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/sergej.jpg" alt="sergej">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Nakon 3 godine pred beogradskom publikom: Sergej Ćetković najavio koncert u “Kombank dvorani”</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Sergej Ćetković se posle pune tri godine vraća pred beogradsku publiku, na koncertu koji će 18. novembra, u 20 časova, održati...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder ">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/dizdar.jpg" alt="dizdar">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Nakon dve godine Natali Dizdar ponovo pred beogradskom publikom!</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Natali Dizdar je publiku osvojila već prvim singlom koji će uskoro proslaviti svoju dvadesetu godišnjicu, a izuzetnim glasom i posebnom harizmom tokom svoje...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main-right new-main">
+                <div class="SA-reklama meridian">
+                    <img src="images/500-RSD-NOVO-baneri-crveni-300x600-1.jpg" alt="meridian">
+                </div>
+                <div class="recommendation">
+                    <div class="bottom-header">
+                        <h4>Preporucujemo</h4>
+                    </div>  
+                </div>
+                <div class="main-under-right">
+                    <div class="slider-right">
+                        <div class="right-image-slider sl-image">
+                            <img src="images/Untitled-130-120x86.jpg" alt="united">
+                        </div>
+                        <div class="slider-text-right ri-slider">
+                            <p>Ćerka Merime Njegomir teško bolesnoj majci čestitala rođendan dirljivom porukom</p>
+                            <div class="slider-date">
+                                10. NOV, 2021
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-right">
+                        <div class="right-image-slider sl-image">
+                            <img src="images/Untitled-101-120x86.jpg" alt="united">
+                        </div>
+                        <div class="slider-text-right ri-slider">
+                            <p>BILO JE STRAŠNO: Jeziva ispovest doktora Jovana Marića</p>
+                            <div class="slider-date">
+                                10. NOV, 2021
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popularity">
+                    <h3 class="popularno">Popularne vesti</h3>
+                </div>
+                <div class="zeroone">
+                    <div class="image-holder-right">
+                        <img src="images/odnos.jpg" alt="odnos">
+                    </div>
+                    <div class="text-holder-right">
+                        <div class="text-holder-right-left">
+                            <p>Tanja Savić i Slavica Ćukteraš jednim potezom otkrile u kakvom su odnosu</p>
+                        </div>
+                        <div class="text-holder-right-right">
+                            <p class="opacity"><a href="#"><i><b>01</b></i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="deljenje-media">
+                    <a href="#" class="media">0 Deljenja</a>
+                </div>
+                <div class="numbers-with-text">
+                    <div class="numbers-with-text-content">
+                        <div class="numbers-with-text-left-side">
+                            <div class="numbers-withouth-text">
+                                02
+                            </div>
+                        </div>
+                        <div class="numbers-with-text-right-side">
+                            <p>Sofija iz serije “Igre sudbine” živela u kamperu na parkingu Ade Ciganlije <br>
+                                <div class="deljenje-medie">
+                                    <a href="#" class="media">0 Deljenja</a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="numbers-with-text-content">
+                        <div class="numbers-with-text-left-side">
+                            <div class="numbers-withouth-text">
+                                03
+                            </div>
+                        </div>
+                        <div class="numbers-with-text-right-side">
+                            <p>“Nismo imali novac za pesme” Popularna pevačica o tome kako ju je Marina Tucaković otkrila <br>
+                                <div class="deljenje-medie">
+                                    <a href="#" class="media">0 Deljenja</a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="numbers-with-text-content">
+                        <div class="numbers-with-text-left-side">
+                            <div class="numbers-withouth-text">
+                                04
+                            </div>
+                        </div>
+                        <div class="numbers-with-text-right-side">
+                            <p>Biković o teškim trenucima: “Stanarina je rasla, na kraju nam je država dodelila dom” <br> 
+                                <div class="deljenje-medie">
+                                    <a href="#" class="media">0 Deljenja</a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="numbers-with-text-content">
+                        <div class="numbers-with-text-left-side">
+                            <div class="numbers-withouth-text">
+                                05
+                            </div>
+                        </div>
+                        <div class="numbers-with-text-right-side">
+                            <p>“BASTIJANOV I MOJ BRAK NIJE IDEALAN” Ana Ivanović progovorila o porodici <br> 
+                                <div class="deljenje-medie">
+                                    <a href="#" class="media">0 Deljenja</a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <div class="bottom-header">
+                        <h4>Zapratite nas</h4>
+                    </div>
+                    <div class="social-media-img">
+                        <img src="images/reklama.png" alt="reklama">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-instagram">
+                    <div class="footer-social">
+                        <h4>Instagram</h4>
+                    </div> 
+                    <div class="footer-social-images">
+                        <div class="footer-images">
+                            <img src="images/budi.jpg" alt="budi">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/novine.jpg" alt="novine">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/random.jpg" alt="random">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/smrdibuba.jpg" alt="smrdibuba">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/zaprati.jpg" alt="zaprati">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/covek.jpg" alt="covek">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/neki lik.jpg" alt="neki lik">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/kinezi.jpg" alt="kinezi">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/kola.jpg" alt="kola">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-kategorije">
+                    <h4>Kategorije</h4>
+                    <div class="footer-kategorije-content">
+                        
+                        <div class="levi-content">
+                            <ul>
+                                <li><a href="#">Beograd</a></li>
+                                <li><a href="#">BG Galerija</a></li>
+                                <li><a href="#">BG Info</a></li>
+                                <li><a href="#">BG Preporuke</a></li>
+                                <li><a href="#">bg price</a></li>
+                                <li><a href="#">biznis</a></li>
+                                <li><a href="#">cestitamo</a></li>
+                                <li><a href="#">covid-19</a></li>
+                                <li><a href="#">dobra vest</a></li>
+                                <li><a href="#">dogadjaji</a></li>
+                                <li><a href="#">domaca scena</a></li>
+                                <li><a href="#">festival</a></li>
+                                <li><a href="#">glavne vesti</a></li>
+                                <li><a href="#">hronika</a></li>
+                                <li><a href="#">koncerti</a></li>
+                            </ul>
+                        </div>
+                        <div class="desni-content">
+                            <ul>
+                                <li><a href="#">Kultura</a></li>
+                                <li><a href="#">Life & style</a></li>
+                                <li><a href="#">muzika</a></li>
+                                <li><a href="#">nagrade</a></li>
+                                <li><a href="#">Najnovije vesti</a></li>
+                                <li><a href="#">politika</a></li>
+                                <li><a href="#">Region</a></li>
+                                <li><a href="#">Showbizz</a></li>
+                                <li><a href="#">sport</a></li>
+                                <li><a href="#">srbija</a></li>
+                                <li><a href="#">svet</a></li>
+                                <li><a href="#">svetska scena</a></li>
+                                <li><a href="#">tema dana</a></li>
+                                <li><a href="#">vesti</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-aplikacije">
+                    <div class="footer-apikacije">
+                        <h4>Aplikacija</h4>
+                    </div> 
+                    <p>Naš portal možete i pratiti putem android i iOS aplikacije:</p>
+                    <div class="footer-aplikacije-img">
+                        <a href="#"><img src="images/img-googleplay.png" alt="gplay"></a>
+                        <a href="#"><img src="images/img-appstore.png" alt="appstore"></a>
+                    </div>
+                </div>
+                <div class="footer-onama">
+                    <div class="footer-social">
+                        <h4>O nama</h4>
+                    </div> 
+                    <p>24h Online je digitalni medijum jedinih besplatnih novina.</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="left-copy">
+                    <p>© 2021 24h Online - Online izdanje jedinih besplatnih novina 24h.</p>
+                </div> 
+                <div class="right-copy">
+                    <ul>
+                        <li><a href="#">Politika privatnosti</a></li>/
+                        <li><a href="#">Uslovi koriscnjenja</a></li>
+                        <li><a href="#">Arhiva</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

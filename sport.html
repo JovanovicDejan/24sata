@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFE & STYLE-24sata online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div class="background-header">
+            <div class="forma">
+                <div class="forma_levo">
+                    <ul>
+                        <li><a href="#">Politika privatnosti</a></li>
+                        <li><a href="#">Uslovi Koriscenja</a></li>
+                        <li><a href="#">Arhiva</a></li>
+                    </ul>
+                </div>
+                <div class="forma_desno">
+                    <form action="#">
+                        <input type="button" id="login" value="Login">
+                        <input type="text" name="pretraga" id="pretraga" placeholder="Pretraga...">
+                        <label for="search" id="search"><i class="material-icons">search</i></label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <div class="slika_za_logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+        </div>
+        <div class="button_position">
+            <button class="button_menu" onclick="show_elements()">
+                <div class="button_div"></div>
+                <div class="button_div"></div>
+                <div class="button_div"></div>
+            </button>
+        </div>
+        <div class="menu" id="menu">
+            <ul id="hidden_menu">
+                <li><a href="#" id="play-button">Play</a></li>
+                <div class="dropdown">
+                    <li class="hide"><a href="#" class="dropdown-list">Srbija<i class="material-icons expand">expand_more</i></a></li>
+                    <div class="dropdown-content">
+                        <div class="dropdown-left-side">
+                            <div class="dropdown-list">
+                                <ul>
+                                    <li><a href="#">Sve</a></li>
+                                    <li><a href="#">Biznis</a></li>
+                                    <li><a href="#">Hronika</a></li>
+                                    <li><a href="#">Politika i drustvo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dropdown-right-side">
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/EXIT-srednja_slika.jpg" alt="exit">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>Istraživanje pokazalo: Za 20 godina EXIT doneo domaćoj privredi više od 200 miliona evra!</p>
+                                </div>
+                            </div>
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/dubai.jpg" alt="dubai">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>U Dubaiju predstavljeni potencijali građevinske industrije</p>
+                                </div>
+                            </div>
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/vuccc-360x180.jpg" alt="vucic">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>Vučić: Strane investicije 3 milijarde i 140 miliona evra (Video)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="hide"><a href="#" class="dropdown-list">Beograd<i class="material-icons expand">expand_more</i></a></li>
+                    <div class="dropdown-content">
+                        <div class="dropdown-left-side">
+                            <div class="dropdown-list">
+                                <ul>
+                                    <li><a href="#">Sve</a></li>
+                                    <li><a href="#">Biznis</a></li>
+                                    <li><a href="#">Hronika</a></li>
+                                    <li><a href="#">Politika i drustvo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dropdown-right-side">
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/EXIT-srednja_slika.jpg" alt="exit">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>Istraživanje pokazalo: Za 20 godina EXIT doneo domaćoj privredi više od 200 miliona evra!</p>
+                                </div>
+                            </div>
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/dubai.jpg" alt="dubai">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>U Dubaiju predstavljeni potencijali građevinske industrije</p>
+                                </div>
+                            </div>
+                            <div class="dropdown-right-side-content">
+                                <div class="dropdown-right-image">
+                                    <img src="images/vuccc-360x180.jpg" alt="vucic">
+                                </div>
+                                <div class="dropdown-right-text">
+                                    <p>Vučić: Strane investicije 3 milijarde i 140 miliona evra (Video)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li><a href="#">Svet</a></li>
+                <li><a href="#">Showbizz</a></li>
+                <li><a href="muzika.html">Muzika</a></li>
+                <li><a href="life_style.html">Life & style</a></li>
+                <li><a href="kultura.html">Kultura</a></li>
+                <li><a href="sport.html">Sport</a></li>
+                <li><a href="covid.html">Covid-19</a></li>
+                <li><a href="#">Svetlo</a></li>
+            </ul>
+        </div>
+        <div class="main make-space">
+            <div class="extra-big-image">
+                <img src="images/nagrada.jpg" alt="nagrada">
+            </div>
+            <div class="new-text-in-image">
+                <div class="life_style_in_image">Sport</div>
+                <h3>Vučić ugostio Mirončikova: Veliki uspeh za srpski boks</h3>
+                <p class="autor-life">Napisao U. M. 11. NOV, 2021</p>
+            </div>
+            <div class="main-left">
+                <div class="main-news">
+                    <div class="page-list">
+                        <ul>
+                            <li><a href="index.html">Pocetna</a> > </li>
+                            <li><a href="#">Kategorija > </a></li>
+                            <li><a href="life_style.html">Life Style</a></li>
+                        </ul>
+                    </div>
+                    <h2 class="header-2">Sport</h2>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/jokic.jpg" alt="jokic">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Nikola Jokić: Čuo sam se sa selektorom Pešićem</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Srpski košarkaš Nikola Jokić izjavio je da se čuo sa novim selektorom Svetislavom Pešićem, ali da je još rano za...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/djokovic.jpg" alt="djokovic">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Novak u finalu mastersa u Parizu!</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Najbolji teniser sveta Novak Ðoković plasirao se u finale mastersa u Parizu, pošto je večeras u polufinalu posle preokreta pobedio...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/eliminacija.jpg" alt="eliminacija">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Ðoković i Krajinović eliminisani u dublu</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Srpski teniseri Novak Ðoković i Filip Krajinović eminisani su u drugom kolu dubla na Mastersu u Parizu, pošto su danas...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/pogadja.jpg" alt="pogadja">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Novak otkrio šta ga najviše motiviše, ali i pogađa</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Novak Đoković posle 50 dana ima priliku da odigra jedan meč u singlu. Od 19.30 u Parizu igra protiv Mađara...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/345.jpg" alt="345">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Ðoković započeo 345. nedelju na vrhu ATP liste</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Najbolji teniser sveta Novak Ðoković započeo je danas 345. nedelju na čelu ATP liste. U odnosu na prethodnu nedelju Ðoković...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/kuglas.jpg" alt="kuglas">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Kuglaši Srbije ponovo šampioni sveta</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Muška kuglaška reprezentacija Srbije osvojila je večeras zlatnu medalju na Svetskom prvenstvu u poljskom Tarnovu. Srpski kuglaši su u finalu...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/beker.jpg" alt="beker">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Beker o Novakovom velikom emotivnom problemu</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Boris Beker, nekadašnji broj jedan svetskog tenisa, smatra da će Novak Đoković igrati u Australiji. Nemac, koji je od 2013....</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/dejvis.jpg" alt="gitara">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Novak na spisku za Dejvis kup</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Najbolji teniser sveta Novak Ðoković se nalazi na užem spisku igrača za takmičenje u Dejvis kupu, koje je na programu...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/box.jpg" alt="box">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Svečano otvoren šampionat sveta u boksu (Foto)</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Svetsko prvenstvo u boksu, 21. po redu, svečano je otvoreno spektakularnom ceremonijom u Štark Areni. Šampionat su otvorili predsednik Bokserskog...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-news-holder ">
+                        <div class="main-news-right im-bigger">
+                            <img src="images/tenis.jpg" alt="tenis">
+                        </div>
+                        <div class="main-news-left im-smaller">
+                            <div class="header-repeat">
+                                <h4>Da li će nevakcinisani igrači ipak moći na Australijan Open?</h4>
+                                <div class="slider-date">
+                                    Napisao U. M. 10. NOV, 2021
+                                </div>
+                                <div class="main-news-paragraph">
+                                    <p>Nevakcinisani teniseri verovatno će moći da učestvuju na Australijan openu, iako su zvancnici države Viktorije tvrdili da to neće biti...</p>
+                                </div>
+                                <div class="readmore">
+                                    <p>procitaj vise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main-right new-main">
+                <div class="SA-reklama meridian">
+                    <img src="images/500-RSD-NOVO-baneri-crveni-300x600-1.jpg" alt="meridian">
+                </div>
+                <div class="recommendation">
+                    <div class="bottom-header">
+                        <h4>Preporucujemo</h4>
+                    </div>  
+                </div>
+                <div class="main-under-right">
+                    <div class="slider-right">
+                        <div class="right-image-slider sl-image">
+                            <img src="images/Untitled-130-120x86.jpg" alt="united">
+                        </div>
+                        <div class="slider-text-right ri-slider">
+                            <p>Ćerka Merime Njegomir teško bolesnoj majci čestitala rođendan dirljivom porukom</p>
+                            <div class="slider-date">
+                                10. NOV, 2021
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-right">
+                        <div class="right-image-slider sl-image">
+                            <img src="images/Untitled-101-120x86.jpg" alt="united">
+                        </div>
+                        <div class="slider-text-right ri-slider">
+                            <p>BILO JE STRAŠNO: Jeziva ispovest doktora Jovana Marića</p>
+                            <div class="slider-date">
+                                10. NOV, 2021
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popularity">
+                    <h3 class="popularno">Popularne vesti</h3>
+                </div>
+                <div class="zeroone">
+                    <div class="image-holder-right">
+                        <img src="images/odnos.jpg" alt="odnos">
+                    </div>
+                    <div class="text-holder-right">
+                        <div class="text-holder-right-left">
+                            <p>Tanja Savić i Slavica Ćukteraš jednim potezom otkrile u kakvom su odnosu</p>
+                        </div>
+                        <div class="text-holder-right-right">
+                            <p class="opacity"><a href="#"><i><b>01</b></i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="deljenje-media">
+                    <a href="#" class="media">0 Deljenja</a>
+                </div>
+                <div class="numbers-with-text">
+                    <div class="numbers-with-text-content">
+                        <div class="numbers-with-text-left-side">
+                            <div class="numbers-withouth-text">
+                                02
+                            </div>
+                        </div>
+                        <div class="numbers-with-text-right-side">
+                            <p>Sofija iz serije “Igre sudbine” živela u kamperu na parkingu Ade Ciganlije <br>
+                                <div class="deljenje-medie">
+                                    <a href="#" class="media">0 Deljenja</a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="numbers-with-text-content">
+                        <div class="numbers-with-text-left-side">
+                            <div class="numbers-withouth-text">
+                                03
+                            </div>
+                        </div>
+                        <div class="numbers-with-text-right-side">
+                            <p>“Nismo imali novac za pesme” Popularna pevačica o tome kako ju je Marina Tucaković otkrila <br>
+                                <div class="deljenje-medie">
+                                    <a href="#" class="media">0 Deljenja</a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="numbers-with-text-content">
+                        <div class="numbers-with-text-left-side">
+                            <div class="numbers-withouth-text">
+                                04
+                            </div>
+                        </div>
+                        <div class="numbers-with-text-right-side">
+                            <p>Biković o teškim trenucima: “Stanarina je rasla, na kraju nam je država dodelila dom” <br> 
+                                <div class="deljenje-medie">
+                                    <a href="#" class="media">0 Deljenja</a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="numbers-with-text-content">
+                        <div class="numbers-with-text-left-side">
+                            <div class="numbers-withouth-text">
+                                05
+                            </div>
+                        </div>
+                        <div class="numbers-with-text-right-side">
+                            <p>“BASTIJANOV I MOJ BRAK NIJE IDEALAN” Ana Ivanović progovorila o porodici <br> 
+                                <div class="deljenje-medie">
+                                    <a href="#" class="media">0 Deljenja</a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <div class="bottom-header">
+                        <h4>Zapratite nas</h4>
+                    </div>
+                    <div class="social-media-img">
+                        <img src="images/reklama.png" alt="reklama">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-instagram">
+                    <div class="footer-social">
+                        <h4>Instagram</h4>
+                    </div> 
+                    <div class="footer-social-images">
+                        <div class="footer-images">
+                            <img src="images/budi.jpg" alt="budi">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/novine.jpg" alt="novine">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/random.jpg" alt="random">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/smrdibuba.jpg" alt="smrdibuba">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/zaprati.jpg" alt="zaprati">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/covek.jpg" alt="covek">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/neki lik.jpg" alt="neki lik">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/kinezi.jpg" alt="kinezi">
+                        </div>
+                        <div class="footer-images">
+                            <img src="images/kola.jpg" alt="kola">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-kategorije">
+                    <h4>Kategorije</h4>
+                    <div class="footer-kategorije-content">
+                        
+                        <div class="levi-content">
+                            <ul>
+                                <li><a href="#">Beograd</a></li>
+                                <li><a href="#">BG Galerija</a></li>
+                                <li><a href="#">BG Info</a></li>
+                                <li><a href="#">BG Preporuke</a></li>
+                                <li><a href="#">bg price</a></li>
+                                <li><a href="#">biznis</a></li>
+                                <li><a href="#">cestitamo</a></li>
+                                <li><a href="#">covid-19</a></li>
+                                <li><a href="#">dobra vest</a></li>
+                                <li><a href="#">dogadjaji</a></li>
+                                <li><a href="#">domaca scena</a></li>
+                                <li><a href="#">festival</a></li>
+                                <li><a href="#">glavne vesti</a></li>
+                                <li><a href="#">hronika</a></li>
+                                <li><a href="#">koncerti</a></li>
+                            </ul>
+                        </div>
+                        <div class="desni-content">
+                            <ul>
+                                <li><a href="#">Kultura</a></li>
+                                <li><a href="#">Life & style</a></li>
+                                <li><a href="#">muzika</a></li>
+                                <li><a href="#">nagrade</a></li>
+                                <li><a href="#">Najnovije vesti</a></li>
+                                <li><a href="#">politika</a></li>
+                                <li><a href="#">Region</a></li>
+                                <li><a href="#">Showbizz</a></li>
+                                <li><a href="#">sport</a></li>
+                                <li><a href="#">srbija</a></li>
+                                <li><a href="#">svet</a></li>
+                                <li><a href="#">svetska scena</a></li>
+                                <li><a href="#">tema dana</a></li>
+                                <li><a href="#">vesti</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-aplikacije">
+                    <div class="footer-apikacije">
+                        <h4>Aplikacija</h4>
+                    </div> 
+                    <p>Naš portal možete i pratiti putem android i iOS aplikacije:</p>
+                    <div class="footer-aplikacije-img">
+                        <a href="#"><img src="images/img-googleplay.png" alt="gplay"></a>
+                        <a href="#"><img src="images/img-appstore.png" alt="appstore"></a>
+                    </div>
+                </div>
+                <div class="footer-onama">
+                    <div class="footer-social">
+                        <h4>O nama</h4>
+                    </div> 
+                    <p>24h Online je digitalni medijum jedinih besplatnih novina.</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="left-copy">
+                    <p>© 2021 24h Online - Online izdanje jedinih besplatnih novina 24h.</p>
+                </div> 
+                <div class="right-copy">
+                    <ul>
+                        <li><a href="#">Politika privatnosti</a></li>/
+                        <li><a href="#">Uslovi koriscnjenja</a></li>
+                        <li><a href="#">Arhiva</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
